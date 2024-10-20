@@ -1,0 +1,23 @@
+#include<stdio.h>
+int main()
+{
+int a,b,c,d,e,f;
+printf("Enter value of b:");
+scanf("%d",&b);
+printf("Enter value of c:");
+scanf("%d",&c);
+printf("Enter value of d:");
+scanf("%d",&d);
+printf("Enter value of e:");
+scanf("%d",&e);
+printf("Enter valuue of f:");
+scanf("%d",&f);
+a=b+c*d+e*f;
+printf("\n a is : %d",a);
+a=(b+c)/d+e*f;
+printf("\n a is : %d",a);
+a=b+c/((d+e)*f);
+printf("\n a is : %d",a);
+return 0;
+}
+
